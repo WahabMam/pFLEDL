@@ -1,0 +1,34 @@
+# Python environments and caches
+.venv/
+venv/
+PFL_E/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# Local configuration / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Data, model artifacts and experiment outputs
+/dataset/*/
+!/dataset/utils/
+!/dataset/utils/**
+/results/
+/system/results/
+/system/models/
+/system/items/
+/system/computation_cost_figures/
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+*.log
+/system/*.txt
+!/system/requirements.txt
+*.bak
+*.bak-*
